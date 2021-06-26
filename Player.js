@@ -5,7 +5,7 @@ class Player{
         this.spt=createSprite(this.x, this.y, 50,50);
 		this.spt.shapeColor="orange";
 		this.spt.addAnimation("playerrun",playerAnimation);
-		this.spt.scale=1.3;
+		this.spt.scale=1.45;
     }
     
 	move(xdir,ydir){
