@@ -27,7 +27,7 @@ function setup() {
 
   win=createSprite(650,-1400);
   win.visible=false;
-  win.debug=true;
+  //win.debug=true;
 
  //Grasses where player can rest
  for(var i=0;i<6;i++){
